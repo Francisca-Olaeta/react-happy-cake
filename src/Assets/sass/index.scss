@@ -1,0 +1,21 @@
+@import './variables';
+@import './mixins';
+@import './custom.scss';
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $secondary;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navBarBrand{
+  font-size: 20rem;
+
+}

@@ -1,0 +1,12 @@
+/* make the customizations */
+$theme-colors: (
+    "primary": #bedbd3,
+    "secondary": #e4edea,
+    "info": rgb(232, 78, 109),
+    "danger": teal,
+    "text-dark": #1d5436,
+    "text-light": #ffffff,
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
